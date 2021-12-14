@@ -1,10 +1,5 @@
 import { getRepository } from "typeorm";
-import { Category } from "../entities/Category";
-
-type CategoryRequest = {
-    name: string;
-    description: string;
-}
+import { Category } from "../../entities/Category";
 
 export class GetAllCategoryService {
     async execute() {
