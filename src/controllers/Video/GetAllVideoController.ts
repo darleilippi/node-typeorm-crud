@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
-import { GetAllCategoryService } from "../services/GetAllCategoryService";
+import { GetAllVideoService } from "../../services/Video/GetAllVideoService";
 
-export class GetAllCategoryController {
+export class GetAllVideoController {
     async handle(request: Request, response: Response) {
-        const service = new GetAllCategoryService();
+        const service = new GetAllVideoService();
 
         const result = await service.execute();
 
