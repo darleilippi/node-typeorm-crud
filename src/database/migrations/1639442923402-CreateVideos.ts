@@ -22,7 +22,7 @@ export class CreateVideos1639442923402 implements MigrationInterface {
                         type: "varchar"
                     },
                     {
-                        name: "category_id",
+                        name: "categories_id",
                         type: "varchar"
                     },
                     {
